@@ -14,7 +14,7 @@ keyboard_start = types.ReplyKeyboardMarkup(
 )
 start_image = FSInputFile("start.png")
 task_image=FSInputFile("task.png")
-bot = Bot(token='6237359555:AAFbO0OsYGVAr1Ss23626qV00pPgqjpwiAs', parse_mode="HTML")
+bot = Bot(token='', parse_mode="HTML") #insert token
 
 dp = Dispatcher()
 
